@@ -4,10 +4,149 @@
 	(generator_version "9.0")
 	(uuid "36dd014e-e30b-45c0-a07c-7db6faee7cad")
 	(paper "A4")
-	(lib_symbols)
+	(title_block
+		(title "FM/AM/SW Radio")
+		(date "2026-01-10")
+		(rev "0.1")
+	)
+	(lib_symbols
+		(symbol "Device:Antenna"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 20.32 78.74) (xy 20.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e026877-391b-4868-b3e6-0b41a3aa56fa")
+	)
+	(wire
+		(pts
+			(xy 20.32 86.36) (xy 29.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3082dd0-c741-4ca7-bb1b-e7f2d1f5c00b")
+	)
 	(image
-		(at 82.55 114.3)
-		(scale 0.571479)
+		(at 73.66 106.68)
+		(scale 0.439424)
 		(uuid "d2b782a8-2131-43a9-a194-ead7cb52d0b9")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA6wAAAJKCAIAAACnM184AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
 			"ABcMAAAXDAGKAo5mAAAgAElEQVR4nOzdZ3wUVdsw8Glb03th0yukkEIooRN6FQyoRJCmgIAR1Fs0"
@@ -2020,9 +2159,76 @@
 			"AAAAAACgw4EkGAAAAAAAdDiQBAMAAAAAgA7n/wO6FJ9hOgQhywAAAABJRU5ErkJggg=="
 		)
 	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 20.32 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "449b3505-51ae-437d-a2f0-36e56dd0dc84")
+		(property "Reference" "AE1"
+			(at 22.86 73.0249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 22.86 75.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 20.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de632d59-feed-4184-90ea-bf23b58aa139")
+		)
+		(instances
+			(project ""
+				(path "/36dd014e-e30b-45c0-a07c-7db6faee7cad"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 29.21 81.28)
-		(size 109.22 67.31)
+		(size 86.36 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2046,7 +2252,7 @@
 			)
 		)
 		(property "Sheetfile" "radio.kicad_sch"
-			(at 29.21 149.1746 0)
+			(at 29.21 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2261,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 138.43 88.9 0)
+			(at 115.57 88.9 0)
 			(uuid "3c9809b9-5b36-4cd3-bb1d-f427470d02b3")
 			(effects
 				(font
@@ -2065,8 +2271,28 @@
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 138.43 86.36 0)
+			(at 115.57 86.36 0)
 			(uuid "c88adcaa-2bf2-4912-95c6-4e289502362b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANT" bidirectional
+			(at 29.21 86.36 180)
+			(uuid "283c8b1f-c831-426d-adbc-3cceb2a00c89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RSTB" bidirectional
+			(at 115.57 93.98 0)
+			(uuid "e1c5458d-ac78-4f14-95fd-56e3b03288c8")
 			(effects
 				(font
 					(size 1.27 1.27)

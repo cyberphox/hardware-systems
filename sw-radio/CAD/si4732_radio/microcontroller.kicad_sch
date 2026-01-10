@@ -2,8 +2,13 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "3a1f01a3-ac63-4738-8f87-44b56fcc20a8")
+	(uuid "1399d3dc-3b23-472c-ae42-bb5c5a7c7e6e")
 	(paper "A4")
+	(title_block
+		(title "FM/AM/SW Radio")
+		(date "2026-01-10")
+		(rev "0.1")
+	)
 	(lib_symbols
 		(symbol "esp32_devkit_v1_doit:ESP32_DevKit_V1_DOIT"
 			(exclude_from_sim no)
@@ -628,7 +633,7 @@
 	)
 	(symbol
 		(lib_id "esp32_devkit_v1_doit:ESP32_DevKit_V1_DOIT")
-		(at 148.59 92.71 0)
+		(at 138.43 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -637,7 +642,7 @@
 		(fields_autoplaced yes)
 		(uuid "e673ab35-43c9-478b-8bf3-402a0fc9cdf9")
 		(property "Reference" "U2"
-			(at 150.7333 54.61 0)
+			(at 140.5733 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +651,7 @@
 			)
 		)
 		(property "Value" "ESP32_DevKit_V1_DOIT"
-			(at 150.7333 57.15 0)
+			(at 140.5733 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +660,7 @@
 			)
 		)
 		(property "Footprint" "doit-esp32-devkit:esp32_devkit_v1_doit"
-			(at 137.16 58.42 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 58.42 0)
+			(at 127 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +678,7 @@
 			)
 		)
 		(property "Description" "32-bit microcontroller module with WiFi and Bluetooth"
-			(at 148.59 92.71 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
